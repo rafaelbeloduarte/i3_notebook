@@ -314,6 +314,7 @@ type = internal/alsa
 format-volume = <ramp-volume> <label-volume>
 label-volume = %percentage%%
 label-volume-foreground = ${root.foreground}
+format-volume-underline = #0033cc
 
 format-muted-prefix = " "
 format-muted-foreground = ${colors.foreground-alt}
